@@ -1,7 +1,7 @@
 import Player from '@vimeo/player';
 
 const iFrame = document.querySelector('iframe');
-const player = new Player(iFrameEl);
+const player = new Player(iframeEl);
 
 player.on('play', function () {
     console.log('played the video');
