@@ -1,13 +1,8 @@
-// Описан в документации
 import SimpleLightbox from 'simplelightbox';
-// Дополнительный импорт стилей
 import 'simplelightbox/dist/simple-lightbox.min.css';
-// Add imports above this line
 import { galleryItems } from './gallery-items';
-// Change code below this line
 
 const galeryRef = document.querySelector(".gallery");
-
 
 const createImg = galleryItems.map(image =>
   `<div class="gallery__item">
